@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TextformComponent } from './textform/textform.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TextformComponent
   ],
   imports: [
     BrowserModule
